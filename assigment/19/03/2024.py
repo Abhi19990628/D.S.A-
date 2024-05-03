@@ -19,3 +19,6 @@ def count_smaller_element(array,x):
     return  count
 
 
+x=10
+array=[1,2,3,4,5,7,8,9,10,20]
+print(count_smaller_element(array,x))
