@@ -8,6 +8,10 @@ array=[1,2,3,9,8,7,6,4,10]
 n=10
 print(missing_no(array,n))
 
+x=10
+array=[1,2,3,4,5,7,8,9,10,20]
+print(count_smaller_element(array,x))
+
 def count_smaller_element(array,x):
     k=[]
     count=0
