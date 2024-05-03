@@ -1,4 +1,12 @@
-
+def missing_no(array, n):
+    summ=0
+    for i in (array):
+        summ+=i
+    a=n*(n+1)//2-summ
+    return a
+array=[1,2,3,9,8,7,6,4,10]
+n=10
+print(missing_no(array,n))
 
 
 def count_smaller_element(array,x):
